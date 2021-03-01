@@ -4,6 +4,7 @@ Docker Certified Associate Exam Preparation Guide
 This guide is intended to be a point of knowledge for everyone who wants to pass Docker Certified Associate Exam. The main idea is to provide the right answer/link to every "question" in every domain. Feel free to add useful links below.
 
 Table of Contents:
+
 Orchestration
 Image Creation, Management, and Registry
 Installation and Configuration
@@ -11,8 +12,10 @@ Networking
 Security
 Storage and Volumes
 Links
+
 Content
 Domain 1: Orchestration (25% of exam)
+
 Complete the setup of a swarm mode cluster, with managers and worker nodes
 State the differences between running a container vs running a service
 Demonstrate steps to lock a swarm cluster
@@ -29,7 +32,9 @@ Apply node labels to demonstrate placement of tasks
 Sketch how a Dockerized application communicates with legacy systems
 Paraphrase the importance of quorum in a swarm cluster
 Demonstrate the usage of templates with "docker service create"
+
 Domain 2: Image Creation, Management, and Registry (20% of exam)
+
 Describe Dockerfile options(add, copy, volumes, expose, entrypoint, etc)
 Show the main parts of a Dockerfile
 Give examples on how to create an efficient image via a Dockerfile
@@ -51,7 +56,9 @@ Sign an image in a registry
 Pull an image from a registry
 Describe how image deletion works
 Delete an image from a registry
+
 Domain 3: Installation and Configuration (15% of exam)
+
 Demonstrate the ability to upgrade the Docker engine
 Complete setup of repo, select a storage driver, and complete installation of Docker engine on multiple platforms
 Configure logging drivers (splunk, journald, etc)
@@ -64,7 +71,9 @@ Use certificate-based client-server authentication to ensure a Docker daemon has
 Consistently repeat steps to deploy Docker engine, UCP, and DTR on AWS and on premises in an HA config 1, 2, 3
 Complete configuration of backups for UCP and DTR
 Configure the Docker daemon to start on boot
+
 Domain 4: Networking (15% of exam)
+
 Create a Docker bridge network for a developer to use for their containers
 Troubleshoot container and engine logs to understand a connectivity issue between containers
 Publish a port so that an application is accessible externally
@@ -76,7 +85,9 @@ Use Docker to load balance HTTP/HTTPs traffic to an application (Configure L7 lo
 Understand and describe the types of traffic that flow between the Docker engine, registry, and UCP controllers
 Deploy a service on a Docker overlay network
 Describe the difference between "host" and "ingress" port publishing mode
+
 Domain 5: Security (15% of exam)
+
 Describe the process of signing an image
 Demonstrate that an image passes a security scan
 Enable Docker Content Trust
@@ -89,7 +100,9 @@ Describe MTLS
 Identity roles
 Describe the difference between UCP workers and managers
 Describe process to use external certificates with UCP and DTR
+
 Domain 6: Storage and Volumes (10% of exam)
+
 State which graph driver should be used on which OS
 Demonstrate how to configure devicemapper
 Compare object storage to block storage, and explain which one is preferable when available
